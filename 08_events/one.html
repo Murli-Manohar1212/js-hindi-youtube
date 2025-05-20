@@ -23,9 +23,10 @@
     //     alert("owl clicked")
     // }
 
-     // attachEvent()
+     // attachEvent() // it is another way of do the eventlistner .. jquery also similar work;
     // jQuery - on
 
+    // this is the type of the event object properties interview
     // type, timestamp, defaultPrevented
     // target, toElement, srcElement, currentTarget,
     // clientX, clientY, screenX, screenY
@@ -46,7 +47,7 @@
     //     console.log("google clicked");
     // }, false)
    
-    
+   // this is the projcet for the remoing the img when clicked  
     document.querySelector('#images').addEventListener('click', function(e){
         console.log(e.target.tagName);
         if (e.target.tagName === 'IMG') {
